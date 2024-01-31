@@ -1,0 +1,169 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-Debug-98ce9968a3b6d62425cd.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.16"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "TelemetryHub",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "all_qmllint::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-all_qmllint-Debug-251cfd3d198a67931fbf.json",
+					"name" : "all_qmllint",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "all_qmllint_json::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-all_qmllint_json-Debug-cd4c9b91fe4692ac0a32.json",
+					"name" : "all_qmllint_json",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "all_qmllint_module::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-all_qmllint_module-Debug-0ff258504312148e00c5.json",
+					"name" : "all_qmllint_module",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "all_qmltyperegistrations::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-all_qmltyperegistrations-Debug-86865e9d98cf2c9ac5fb.json",
+					"name" : "all_qmltyperegistrations",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "appTelemetryHub::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-appTelemetryHub-Debug-2a13b5855c835e2bf0b8.json",
+					"name" : "appTelemetryHub",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "appTelemetryHub_autogen::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-appTelemetryHub_autogen-Debug-6b0f78ee92ed15efcb0b.json",
+					"name" : "appTelemetryHub_autogen",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "appTelemetryHub_autogen_timestamp_deps::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-appTelemetryHub_autogen_timestamp_deps-Debug-5647064473afc4aa362a.json",
+					"name" : "appTelemetryHub_autogen_timestamp_deps",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "appTelemetryHub_qmlimportscan::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-appTelemetryHub_qmlimportscan-Debug-abf9684893e0c6e4d9b7.json",
+					"name" : "appTelemetryHub_qmlimportscan",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "appTelemetryHub_qmllint::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-appTelemetryHub_qmllint-Debug-92d9c16480a182837c51.json",
+					"name" : "appTelemetryHub_qmllint",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "appTelemetryHub_qmllint_json::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-appTelemetryHub_qmllint_json-Debug-dc705d417a4195e068ca.json",
+					"name" : "appTelemetryHub_qmllint_json",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "appTelemetryHub_qmllint_module::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-appTelemetryHub_qmllint_module-Debug-9535355a4a0999fabea2.json",
+					"name" : "appTelemetryHub_qmllint_module",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "appTelemetryHub_qmltyperegistration::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-appTelemetryHub_qmltyperegistration-Debug-7619bbad528ae1814203.json",
+					"name" : "appTelemetryHub_qmltyperegistration",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "appTelemetryHub_tooling::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-appTelemetryHub_tooling-Debug-042e42574eeb0e316a99.json",
+					"name" : "appTelemetryHub_tooling",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "C:/Users/nessy/Desktop/TelemetryHub/SEM_Telemetry_Hub/DesktopApplication/build-TelemetryHub-Desktop_Qt_6_6_1_MinGW_64_bit-Debug",
+		"source" : "C:/Users/nessy/Desktop/TelemetryHub/SEM_Telemetry_Hub/DesktopApplication/TelemetryHub"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 6
+	}
+}

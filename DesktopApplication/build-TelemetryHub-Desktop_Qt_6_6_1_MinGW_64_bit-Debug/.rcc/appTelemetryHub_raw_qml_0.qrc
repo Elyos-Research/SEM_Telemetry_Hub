@@ -1,0 +1,7 @@
+<RCC>
+  <qresource prefix="/TelemetryHub/">
+    <file alias="Main.qml">C:/Users/nessy/Desktop/TelemetryHub/SEM_Telemetry_Hub/DesktopApplication/TelemetryHub/Main.qml</file>
+    <file alias="serialMonitorWindow.qml">C:/Users/nessy/Desktop/TelemetryHub/SEM_Telemetry_Hub/DesktopApplication/TelemetryHub/serialMonitorWindow.qml</file>
+  </qresource>
+</RCC>
+

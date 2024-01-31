@@ -1,0 +1,391 @@
+[
+    {
+        "classes": [
+            {
+                "className": "DataParser",
+                "methods": [
+                    {
+                        "access": "public",
+                        "arguments": [
+                            {
+                                "name": "dataString",
+                                "type": "QString"
+                            }
+                        ],
+                        "name": "parseLabelData",
+                        "returnType": "void"
+                    },
+                    {
+                        "access": "public",
+                        "arguments": [
+                            {
+                                "name": "label",
+                                "type": "QString"
+                            }
+                        ],
+                        "name": "getLabelData",
+                        "returnType": "QVariant"
+                    },
+                    {
+                        "access": "public",
+                        "name": "getLabels",
+                        "returnType": "QStringList"
+                    }
+                ],
+                "object": true,
+                "qualifiedClassName": "DataParser",
+                "signals": [
+                    {
+                        "access": "public",
+                        "name": "newLabelAdded",
+                        "returnType": "void"
+                    },
+                    {
+                        "access": "public",
+                        "name": "dataUpdated",
+                        "returnType": "void"
+                    }
+                ],
+                "superClasses": [
+                    {
+                        "access": "public",
+                        "name": "QObject"
+                    }
+                ]
+            }
+        ],
+        "inputFile": "dataparser.h",
+        "outputRevision": 68
+    },
+    {
+        "classes": [
+            {
+                "className": "HeatPlot",
+                "methods": [
+                    {
+                        "access": "public",
+                        "arguments": [
+                            {
+                                "name": "data",
+                                "type": "QVariantList"
+                            }
+                        ],
+                        "name": "setHeatData",
+                        "returnType": "void"
+                    },
+                    {
+                        "access": "public",
+                        "name": "updatePlot",
+                        "returnType": "void"
+                    }
+                ],
+                "object": true,
+                "properties": [
+                    {
+                        "constant": false,
+                        "designable": true,
+                        "final": false,
+                        "index": 0,
+                        "name": "pointSize",
+                        "notify": "pointSizeChanged",
+                        "read": "pointSize",
+                        "required": false,
+                        "scriptable": true,
+                        "stored": true,
+                        "type": "double",
+                        "user": false,
+                        "write": "setPointSize"
+                    },
+                    {
+                        "constant": false,
+                        "designable": true,
+                        "final": false,
+                        "index": 1,
+                        "name": "scalingFactor",
+                        "notify": "scalingFactorChanged",
+                        "read": "scalingFactor",
+                        "required": false,
+                        "scriptable": true,
+                        "stored": true,
+                        "type": "double",
+                        "user": false,
+                        "write": "setScalingFactor"
+                    },
+                    {
+                        "constant": false,
+                        "designable": true,
+                        "final": false,
+                        "index": 2,
+                        "name": "padding",
+                        "notify": "paddingChanged",
+                        "read": "padding",
+                        "required": false,
+                        "scriptable": true,
+                        "stored": true,
+                        "type": "double",
+                        "user": false,
+                        "write": "setPadding"
+                    }
+                ],
+                "qualifiedClassName": "HeatPlot",
+                "signals": [
+                    {
+                        "access": "public",
+                        "name": "pointSizeChanged",
+                        "returnType": "void"
+                    },
+                    {
+                        "access": "public",
+                        "name": "scalingFactorChanged",
+                        "returnType": "void"
+                    },
+                    {
+                        "access": "public",
+                        "name": "paddingChanged",
+                        "returnType": "void"
+                    }
+                ],
+                "superClasses": [
+                    {
+                        "access": "public",
+                        "name": "QQuickPaintedItem"
+                    }
+                ]
+            }
+        ],
+        "inputFile": "heatplot.h",
+        "outputRevision": 68
+    },
+    {
+        "classes": [
+            {
+                "className": "SerialHandle",
+                "methods": [
+                    {
+                        "access": "public",
+                        "arguments": [
+                            {
+                                "name": "portName",
+                                "type": "QString"
+                            },
+                            {
+                                "name": "mode",
+                                "type": "Mode"
+                            },
+                            {
+                                "name": "baudRate",
+                                "type": "QSerialPort::BaudRate"
+                            }
+                        ],
+                        "name": "openSerialPort",
+                        "returnType": "bool"
+                    },
+                    {
+                        "access": "public",
+                        "name": "closeSerialPort",
+                        "returnType": "void"
+                    },
+                    {
+                        "access": "public",
+                        "name": "availablePorts",
+                        "returnType": "QStringList"
+                    },
+                    {
+                        "access": "public",
+                        "name": "readLine",
+                        "returnType": "QString"
+                    },
+                    {
+                        "access": "public",
+                        "arguments": [
+                            {
+                                "name": "data",
+                                "type": "QByteArray"
+                            }
+                        ],
+                        "name": "writeData",
+                        "returnType": "bool"
+                    },
+                    {
+                        "access": "public",
+                        "arguments": [
+                            {
+                                "name": "baudRate",
+                                "type": "QString"
+                            }
+                        ],
+                        "name": "setBaudRate",
+                        "returnType": "void"
+                    },
+                    {
+                        "access": "public",
+                        "arguments": [
+                            {
+                                "name": "port",
+                                "type": "QString"
+                            }
+                        ],
+                        "name": "setComPort",
+                        "returnType": "void"
+                    }
+                ],
+                "object": true,
+                "qualifiedClassName": "SerialHandle",
+                "signals": [
+                    {
+                        "access": "public",
+                        "arguments": [
+                            {
+                                "name": "data",
+                                "type": "QString"
+                            }
+                        ],
+                        "name": "dataReceived",
+                        "returnType": "void"
+                    },
+                    {
+                        "access": "public",
+                        "arguments": [
+                            {
+                                "name": "errorString",
+                                "type": "QString"
+                            }
+                        ],
+                        "name": "errorOccurred",
+                        "returnType": "void"
+                    },
+                    {
+                        "access": "public",
+                        "name": "serialPortClosed",
+                        "returnType": "void"
+                    }
+                ],
+                "superClasses": [
+                    {
+                        "access": "public",
+                        "name": "QObject"
+                    }
+                ]
+            }
+        ],
+        "inputFile": "serialhandle.h",
+        "outputRevision": 68
+    },
+    {
+        "classes": [
+            {
+                "className": "Track",
+                "methods": [
+                    {
+                        "access": "public",
+                        "arguments": [
+                            {
+                                "name": "fileUrl",
+                                "type": "QUrl"
+                            }
+                        ],
+                        "name": "loadData",
+                        "returnType": "void"
+                    },
+                    {
+                        "access": "public",
+                        "name": "getTableModel",
+                        "returnType": "QVariantList"
+                    }
+                ],
+                "object": true,
+                "qualifiedClassName": "Track",
+                "signals": [
+                    {
+                        "access": "public",
+                        "name": "dataLoaded",
+                        "returnType": "void"
+                    }
+                ],
+                "superClasses": [
+                    {
+                        "access": "public",
+                        "name": "QObject"
+                    }
+                ]
+            }
+        ],
+        "inputFile": "track.h",
+        "outputRevision": 68
+    },
+    {
+        "classes": [
+            {
+                "className": "WindowManager",
+                "object": true,
+                "properties": [
+                    {
+                        "constant": false,
+                        "designable": true,
+                        "final": false,
+                        "index": 0,
+                        "name": "darkMode",
+                        "notify": "darkModeChanged",
+                        "read": "darkMode",
+                        "required": false,
+                        "scriptable": true,
+                        "stored": true,
+                        "type": "bool",
+                        "user": false,
+                        "write": "setDarkMode"
+                    }
+                ],
+                "qualifiedClassName": "WindowManager",
+                "signals": [
+                    {
+                        "access": "public",
+                        "arguments": [
+                            {
+                                "name": "darkMode",
+                                "type": "bool"
+                            }
+                        ],
+                        "name": "darkModeChanged",
+                        "returnType": "void"
+                    }
+                ],
+                "slots": [
+                    {
+                        "access": "public",
+                        "arguments": [
+                            {
+                                "name": "windowType",
+                                "type": "QString"
+                            },
+                            {
+                                "name": "qmlUrl",
+                                "type": "QUrl"
+                            }
+                        ],
+                        "name": "createWindow",
+                        "returnType": "void"
+                    },
+                    {
+                        "access": "public",
+                        "arguments": [
+                            {
+                                "name": "darkMode",
+                                "type": "bool"
+                            }
+                        ],
+                        "name": "setDarkMode",
+                        "returnType": "void"
+                    }
+                ],
+                "superClasses": [
+                    {
+                        "access": "public",
+                        "name": "QObject"
+                    }
+                ]
+            }
+        ],
+        "inputFile": "windowmanager.h",
+        "outputRevision": 68
+    }
+]
