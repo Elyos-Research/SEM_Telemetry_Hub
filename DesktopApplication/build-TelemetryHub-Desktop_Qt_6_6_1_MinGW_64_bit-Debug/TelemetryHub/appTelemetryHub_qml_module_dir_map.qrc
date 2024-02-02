@@ -1,6 +1,0 @@
-<RCC>
-  <qresource prefix="/">
-    <file alias="/TelemetryHub">C:/Users/nessy/Desktop/TelemetryHub/SEM_Telemetry_Hub/DesktopApplication/build-TelemetryHub-Desktop_Qt_6_6_1_MinGW_64_bit-Debug/TelemetryHub</file>
-
-  </qresource>
-</RCC>
