@@ -2,5 +2,4 @@ module TelemetryHub
 typeinfo appTelemetryHub.qmltypes
 prefer :/TelemetryHub/
 Main 1.0 Main.qml
-OrbitVisualization 1.0 qml/Components/OrbitVisualization.qml
 

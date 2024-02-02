@@ -1,9 +1,6 @@
 <RCC>
   <qresource prefix="/TelemetryHub/">
     <file alias="Main.qml">C:/Users/nessy/Desktop/TelemetryHub/SEM_Telemetry_Hub/DesktopApplication/TelemetryHub/Main.qml</file>
-    <file alias="qml/Views/serialMonitorWindow.qml">C:/Users/nessy/Desktop/TelemetryHub/SEM_Telemetry_Hub/DesktopApplication/TelemetryHub/qml/Views/serialMonitorWindow.qml</file>
-    <file alias="qml/Components/OrbitVisualization.qml">C:/Users/nessy/Desktop/TelemetryHub/SEM_Telemetry_Hub/DesktopApplication/TelemetryHub/qml/Components/OrbitVisualization.qml</file>
-    <file alias="qml/Resources/elyos_athon.glb">C:/Users/nessy/Desktop/TelemetryHub/SEM_Telemetry_Hub/DesktopApplication/TelemetryHub/qml/Resources/elyos_athon.glb</file>
   </qresource>
 </RCC>
 
